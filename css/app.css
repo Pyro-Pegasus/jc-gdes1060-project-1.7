@@ -1,0 +1,283 @@
+/*Header Stuff*/
+.grid-container{
+  margin-left:2em;
+}
+
+header{
+  background-color:#ABD3BB;
+  padding-left: 2em;
+}
+
+.fas {
+  color:#333333;
+  font-size: 3em;
+}
+
+#main-menu nav {
+ display: flex;
+ height: 100%;
+ background-color:#ABD3BB;
+}
+#main-menu ul {
+ margin: auto 0;
+ padding: 0;
+ list-style: none;
+}
+
+#main-menu li{
+  margin-bottom:2.5em;
+  margin-left:2em;
+}
+
+#main-menu a {
+ color:#333333;
+ font-family:Poppins;
+ font-size: 24px;
+ font-weight:600;
+ text-align:left;
+}
+
+.fa-times{
+  font-size:2em;
+  margin-top:.25em;
+  margin-right:.25em; 
+}
+
+/*Breadcrumbs*/
+
+.breadcrumb{
+  list-style:none;
+  margin-left:.5em;
+  margin-top:.5em;
+}
+
+.breadcrumb li{
+  display:inline;
+  margin-right:1em;
+}
+
+.breadcrumb a{
+color:#333333;
+text-decoration:underline;
+}
+
+/*Home Page Main*/
+main{
+background-color: #FFFFFF
+}
+
+section{
+}
+
+.hero{
+font-family:Poppins;
+}
+
+.hero div{
+  margin-top:.01em;
+  margin-left:7em;
+  margin-bottom:5em;
+}
+
+p{
+  font-family:Poppins;
+  font-weight:400;
+}
+.hero p{
+  margin-top:-1.5em;
+  font-weight:400;
+}
+
+.button{
+  background-color:#ABD3BB;
+  font-family:Poppins;
+  font-size:18px;
+  color:#333333;
+  border-radius:20px;
+  margin-right: 3em;
+  margin-top:-5em;
+  margin-left:3.5em;
+  font-weight:600;
+}
+
+.button a {
+  color:#333333;
+}
+
+.exhibit-categories{
+}
+
+.current-exhibits{
+  margin-bottom:5em;
+}
+
+.upcoming-exhibits{
+margin-bottom:5em;
+}
+
+.past-exhibits{
+  margin-bottom:5em;
+}
+
+.collections{
+margin-bottom:8em;
+}
+
+.collections div {
+  margin-right:2.5em;
+}
+
+
+/*Category Page Stuff*/
+
+h2 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight:400;
+  color:#5A6B23;
+  padding-top:.25em;
+  padding-bottom: .5em;
+}
+
+h3{
+  font-family: Poppins;
+}
+
+section div div h3{
+  font-size: 24px;
+  font-weight:600;
+  color:#333333;
+}
+
+.card-section div{
+  margin-top:.25em;
+}
+
+.brockton-youth{
+  margin-bottom:6em;
+}
+
+.another-crossing{
+  margin-bottom:6em;
+}
+
+.another-crossing div{
+  background-color:#ABD3BB;
+}
+
+.another-crossing div div>div{
+  background-color:#FFFFFF;
+}
+
+.mgmt{
+  margin-bottom:6em;
+}
+
+.michelle{
+  margin-bottom:6em;
+}
+
+.michelle div{
+  background-color:#ABD3BB;
+}
+
+.michelle div div>div{
+  background-color:#FFFFFF;
+}
+
+.american-clay{
+  margin-bottom:8em;
+}
+
+/*Detail Page Stuff*/
+
+.details h3{
+  font-weight:400;
+  color:#5A6B23;
+  margin-top: 1em;
+  margin-bottom:1em;
+}
+
+h4{
+  font-family:Poppins;
+  font-size: 36px;
+  font-weight:400;
+  color:#333333;
+  margin-top:3em;
+  margin-bottom:0.5em;
+}
+
+.recommendations{
+  text-align:left;
+}
+
+.recommendations ul{
+  list-style:none;
+  
+  margin-bottom:;
+}
+
+.recommendations ul li{
+  margin-bottom:2em;
+  text-align:left;
+  margin-left:-1em;
+}
+
+.recommendations ul li a{
+  font-family:Poppins;
+  font-size: 24px;
+  font-weight:400;
+  color:#5A6B23;
+  text-decoration:underline;
+}
+
+.recommendations div{
+  margin-top:-1em;
+  margin-bottom: 8em;
+  margin-left:4em;
+  padding-left:2em;
+  padding-right:2em;
+}
+
+hr {
+  background-color:#ABD3BB;
+  height:3px;
+}
+
+/*Footer Stuff*/
+
+footer{
+  background-color:#ABD3BB;
+  font-family:Poppins;
+  color:#333333;
+  padding-top:2em;
+  padding-bottom:3em;
+  padding-left:2em;
+}
+
+footer h5{
+  font-size:24px;
+  margin-top:1em;
+}
+
+footer p{
+  font-size:16px;
+}
+
+footer li{
+  font-size:18px;
+  list-style-type:none;
+  margin-top:.5em;
+  margin-left:-1em;
+}
+
+footer li:nth-child(2n){
+  padding-left:8em;
+margin-top:-1.6em;
+}
+
+address {
+  font-size:16px;
+  font-style:normal;
+  padding-bottom: 2em;
+}
